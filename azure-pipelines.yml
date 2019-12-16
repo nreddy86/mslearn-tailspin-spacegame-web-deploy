@@ -78,7 +78,7 @@ stages:
       vmImage: 'Ubuntu-16.04'
     environment: dev
     variables:
-    - group: Release
+    - group: Release 
     strategy:
       runOnce:
         deploy:
